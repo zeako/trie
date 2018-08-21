@@ -72,3 +72,7 @@ func (t *trie) Save(filename string) error {
 func (t *trie) Load(filename string) error {
 	return ErrNotImplemented
 }
+
+func New() Trie{
+	return &trie{}
+}
